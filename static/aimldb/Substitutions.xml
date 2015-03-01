@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item name=":-)" value=" smile " />
+  <item name=":)" value=" smile " />
+  <item name=";)" value=" smile " />
+  <item name=" L A" value=" la " />
+  <item name=" O K " value=" ok " />
+  <item name=" P S " value=" ps " />
+  <item name=" OHH" value="oh" />
+  <item name=" HEHE" value="he" />
+  <item name=" HAHA" value="ha" />
+  <item name=" HELLP" value="help " />
+  <item name=" BECAUS" value="because " />
+  <item name=" BELEIVE" value="believe " />
+  <item name=" BECASUE" value="because " />
+  <item name=" BECUASE" value="because " />
+  <item name=" BECOUSE" value="because " />
+  <item name=" REDUCTIONALISM" value="reductionism " />
+  <item name=" ITS A " value=" it is a " />
+  <item name=" NOI" value=" yes I " />
+  <item name=" FAV" value=" favorite " />
+  <item name=" YESI" value=" yes I " />
+  <item name=" YESIT" value=" yes it " />
+  <item name=" IAM" value=" I am " />
+  <item name=" WELLI" value=" well I " />
+  <item name=" WELLIT" value=" well it " />
+  <item name=" AMFINE" value=" am fine " />
+  <item name=" AMAN" value=" am an " />
+  <item name=" AMON" value=" am on " />
+  <item name=" AMNOT" value=" am not " />
+  <item name=" REALY" value=" really" />
+  <item name=" IAMUSING" value=" I am using " />
+  <item name=" AMLEAVING" value=" am leaving " />
+  <item name=" YEAH" value=" yes" />
+  <item name=" YEP" value=" yes" />
+  <item name=" YHA" value=" yes" />
+  <item name=" YOU" value=" you" />
+  <item name=" WANNA" value=" want to " />
+  <item name=" YOU'D" value=" you would " />
+  <item name=" YOU'RE" value=" you are " />
+  <item name=" YOU RE " value=" you are " />
+  <item name=" YOU'VE" value=" you have " />
+  <item name=" YOU VE " value=" you have " />
+  <item name=" YOU'LL" value=" you will " />
+  <item name=" YOU LL " value=" you will " />
+  <item name=" YOURE" value=" you are " />
+  <item name=" DIDNT" value=" did not " />
+  <item name=" DIDN T " value=" did not " />
+  <item name=" DID'NT" value=" did not " />
+  <item name=" COULDN'T" value=" could not " />
+  <item name=" COULDN T " value=" could not " />
+  <item name=" DIDN'T" value=" did not " />
+  <item name=" AIN'T" value=" is not " />
+  <item name=" AIN T " value=" is not " />
+  <item name=" ISN'T" value=" is not " />
+  <item name=" ISN T " value=" is not " />
+  <item name=" ISNT" value=" is not " />
+  <item name=" IT'S" value=" it is " />
+  <item name=" IT S " value=" it is " />
+  <item name=" ARE'NT" value=" are not " />
+  <item name=" ARENT" value=" are not " />
+  <item name=" AREN'T" value=" are not " />
+  <item name=" AREN T " value=" are not " />
+  <item name=" ARN T " value=" are not " />
+  <item name=" WHERE'S" value=" where is " />
+  <item name=" WHERE S " value=" where is " />
+  <item name=" HAVEN'T" value=" have not " />
+  <item name=" HAVENT" value=" have not " />
+  <item name=" HASN'T" value=" has not " />
+  <item name=" HASN T " value=" has not " />
+  <item name=" WEREN T " value=" were not " />
+  <item name=" WEREN'T" value=" were not " />
+  <item name=" WERENT" value=" were not " />
+  <item name=" CAN'T" value=" can not " />
+  <item name=" CAN T " value=" can not " />
+  <item name=" CANT" value=" can not " />
+  <item name=" CANNOT" value=" can not " />
+  <item name=" WHOS" value=" who is " />
+  <item name=" HOW'S" value=" how is " />
+  <item name=" HOW S " value=" how is " />
+  <item name=" HOW'D" value=" how did " />
+  <item name=" HOW D " value=" how did " />
+  <item name=" HOWS" value=" how is " />
+  <item name=" WHATS" value=" what is " />
+  <item name=" NAME'S" value=" name is " />
+  <item name=" WHO'S" value=" who is " />
+  <item name=" WHO S " value=" who is " />
+  <item name=" WHAT'S" value=" what is " />
+  <item name=" WHAT S " value=" what is " />
+  <item name=" THAT'S" value=" that is " />
+  <item name=" THERE'S" value=" there is " />
+  <item name=" THERE S " value=" there is " />
+  <item name=" THERES" value=" there is " />
+  <item name=" THATS" value=" that is " />
+  <item name=" DOESN'T" value=" does not " />
+  <item name=" DOESN T " value=" does not " />
+  <item name=" DOESNT" value=" does not " />
+  <item name=" DON'T" value=" do not " />
+  <item name=" DON T " value=" do not " />
+  <item name=" DONT" value=" do not " />
+  <item name=" DO NT " value=" do not " />
+  <item name=" DO'NT" value=" do not " />
+  <item name=" WON'T" value=" will not " />
+  <item name=" WONT" value=" will not " />
+  <item name=" WON T " value=" will not " />
+  <item name=" LET'S" value=" let us " />
+  <item name=" THEY'RE" value=" they are " />
+  <item name=" THER RE " value=" they are " />
+  <item name=" WASN'T" value=" was not " />
+  <item name=" WASN T " value=" was not " />
+  <item name=" WASNT" value=" was not " />
+  <item name=" HADN'T" value=" had not " />
+  <item name=" HADN T " value=" had not " />
+  <item name=" WOULDN'T" value=" would not " />
+  <item name=" WOULDN T " value=" would not " />
+  <item name=" WOULDNT" value=" would not " />
+  <item name=" SHOULDN'T" value=" should not " />
+  <item name=" SHOULDNT" value=" should not " />
+  <item name=" FAVOURITE" value=" favorite " />
+  <item name=" COLOUR" value=" color " />
+  <item name=" WE'LL" value=" we will " />
+  <item name=" WE LL " value=" we will " />
+  <item name=" HE'LL" value=" he will " />
+  <item name=" HE LL " value=" he will " />
+  <item name=" I'LL" value=" I will " />
+  <item name=" IVE " value=" I have " />
+  <item name=" I'VE" value=" I have " />
+  <item name=" I VE " value=" I have " />
+  <item name=" I'D" value=" I would " />
+  <item name=" I'M" value=" I am " />
+  <item name=" I M " value=" I am " />
+  <item name=" WE'VE" value=" we have " />
+  <item name=" WE'RE" value=" we are " />
+  <item name=" SHE'S" value=" she is " />
+  <item name=" SHES" value=" she is " />
+  <item name=" SHE'D" value=" she would " />
+  <item name=" SHE D " value=" she would " />
+  <item name=" SHED" value=" she would " />
+  <item name=" HE'D" value=" he would " />
+  <item name=" HE D " value=" he would " />
+  <item name=" HED" value=" he would " />
+  <item name=" HE'S" value=" he is " />
+  <item name=" WE VE " value=" we have " />
+  <item name=" WE RE " value=" we are " />
+  <item name=" SHE S " value=" she is " />
+  <item name=" HE S " value=" he is " />
+  <item name=" IAMA" value=" I am a " />
+  <item name=" IAMASKING" value=" I am asking " />
+  <item name=" IAMDOING" value=" I am doing " />
+  <item name=" IAMFROM" value=" I am from " />
+  <item name=" IAMIN" value=" I am in " />
+  <item name=" IAMOK" value=" I am ok " />
+  <item name=" IAMSORRY" value=" I am sorry " />
+  <item name=" IAMTALKING" value=" I am talking " />
+  <item name=" IAMTIRED" value=" I am tired " />
+  <item name=" DOWN LOAD " value=" download " />
+  <item name=" REMEBER" value=" remember " />
+  <item name=" WAHT" value=" what " />
+  <item name=" TOLLERVY" value="Tollervey" />
+  <item name=" YOU R " value=" you are " />
+  <item name=" U " value=" you " />
+  <item name=" UR " value=" your " />
+  <item name=" RU " value=" are you " />
+  <item name=" R U " value=" are you " />
+</root>

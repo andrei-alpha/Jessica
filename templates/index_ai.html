@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+    
+<html>
+<head>
+    <link rel='SHORTCUT ICON' href="s/jabberwacky/j/j2/jabberwacky_favicon.gif"/>
+    <title>Artificial Intelligence chatbot</title>
+    <link rel="stylesheet" type="text/css" href="/ai/static/ai.css">
+    <script type="text/javascript" src="/ai/static/jquery.js"></script>
+    <script type="text/javascript" src="/ai/static/language.js"></script>
+    <script type="text/javascript" src="/ai/static/ai.js"></script>
+</head>
+
+<body onload="checkCookie()">
+
+<div id = "notifications">
+  Click the "Allow" button above to enable your microphone.
+</div>
+
+<div id="content">
+    <div id = "text-wrapper">
+        <div id = "text-box-header">
+          <h3>Jessica</h3>
+        </div>
+        <div style="clear:both;"></div>
+        <div id="mic"></div>
+        <div id = "text-box">
+        </div>
+    </div>
+    
+    <div id="input-wrapper">
+        <div id = "input-box">
+            <form method="post" onsubmit="return sendText()">
+                <input type="text" class="textinput" name="message" />
+            </form>
+        </div>
+    </div>
+
+    <div id="div-language">
+    <div id="select-div">
+      <select id="select-language" onchange="updateCountry()"></select>
+      <select id="select-dialect"  onchange="updateLanguage()"></select>
+    </div>
+    </div>
+</div>
+
+<div id = "right-wrapper">
+    <img id = "img1" src="/ai/static/logotext0.gif" height=60px width=50px></img>
+    <img id = "img2" src="/ai/static/logotext1.gif" height=120px width=50px></img>
+    <img id = "img3" src="/ai/static/logotext2.gif" height=220px width=50px></img>   
+</div>
+
+</body>
+</html>

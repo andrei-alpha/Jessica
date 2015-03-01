@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+html {
+    background: #e3eceb;
+    background-image:url('background.jpg');
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+#all{
+    height: 100%;
+    margin: 0 0 0 0;
+}
+
+#content{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 0px 20px auto 20px;
+}
+
+#right-wrapper{
+    float: right;
+    width: 200px;
+    height: 100%;
+    display: block;
+    background-color: #333333;
+}
+
+#text-wrapper, #input-wrapper{
+    width: 50%;
+}
+
+#text-box-header {
+  height: 35px;
+  color: white;
+  text-align: left;
+  border-radius: 2px;
+  opacity: 0.9;
+  background: radial-gradient(#333333, #666);
+}
+
+#text-box-header h3 {
+  padding: 5px 0px 0px 30px;
+}
+
+#text-box
+{
+    height: 400px;
+    overflow-y:scroll;
+    background: white;
+    box-shadow: 6px 6px 6px #888888;
+}
+
+#text-box p {
+    margin: 0;
+    padding: 5px;
+}
+
+#text-box p .user {
+    font-weight: bold;
+}
+
+#input-box {
+    clear: both;
+    margin-top: 4px;
+    box-shadow: 6px 6px 6px #888888;
+}
+
+#img1, #img2, #img3, #img4 {
+    display: block;
+    width: 90%;
+}
+
+#input-box .textinput {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#mic {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  margin-left: 358px;
+  background-image:url('mic.gif');
+}
+
+#notifications {
+    background-color:#e3f7fc; 
+    color: #555; 
+    width: 380px;
+    border:.1em solid;
+    border-color: #8ed9f6;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;
+    font-size:0.9em;
+    padding:10px 10px 10px 10px;
+    margin-left: 520px;
+    margin-top: 18px;
+    position: absolute;
+    z-index: 10;
+    cursor: default;
+}
+
+#div-language {
+  padding: 10px;
+  width: 100%;
+}
+
+#select-div {
+  width: 80%;
+  margin: 0 auto;
+}
