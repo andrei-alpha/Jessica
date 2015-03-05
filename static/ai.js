@@ -19,10 +19,10 @@ emoticons[";)"] = "wink.gif"
 
 // Used by speech recognition and speech synthesis
 var recognition;
-var utterance; 
 var nextMessage;
 var isSpeaking;
 var isRecognizing;
+var remainingText;
 var speechLang = "en-US";
 
 function setCookie(name, value, exdays)
@@ -90,14 +90,29 @@ function receiveText(text)
 {
   if ('speechSynthesis' in window) {
     // Synthesis support. Make Jessica talk!
-    utterance = new SpeechSynthesisUtterance(text);
+    remainingText = null;
+    if (text.length > 250) {
+      var splits = splitText(text);
+      text = splits[0];
+      remainingText = splits[1];
+    }
+
+    var utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = speechLang;
     utterance.onend = function(event) {
-      setTimeout(function() {
-        startListening();
-      }, 400);
+      if (remainingText != null) {
+        setTimeout(function() {
+          receiveText(remainingText);
+        }, 100);
+      }
+      else {
+        setTimeout(function() {
+          startListening();
+        }, 400);
+      }
     }
     isSpeaking = true;
+    $("#mic").css('background-image', 'url("static/mic.gif")');
     window.speechSynthesis.speak(utterance);
   }
   else {
@@ -130,7 +145,7 @@ function startListening() {
   
     recognition.onresult = function(event) {
       //console.log("heard: " + event.results[nextMessage][0].transcript)
-      if (window.speechSynthesis.speaking == true || isSpeaking == true) {
+      if (isSpeaking == true) {
         ++nextMessage;
         return;
       }
@@ -141,7 +156,7 @@ function startListening() {
     }
     recognition.start();
   } else {
-    console.log("start listening...")
+    //console.log("start listening...")
     isSpeaking = false;
     if (isRecognizing == true)
       $("#mic").css('background-image', 'url("static/mic-slash.gif")');
@@ -190,7 +205,24 @@ function appendText(user, text) {
 }
 
 function updateLanguage(langauge) {
-  speechLang = langauge
-  recognition = null
+  speechLang = langauge;
+  recognition = null;
+  $("#mic").css('background-image', 'url("static/mic.gif")');
   startListening()
+}
+
+// SpeechSynthesisUtternace bug, more details here:
+// https://code.google.com/p/chromium/issues/detail?id=335907
+function splitText(text) {
+  sentences = text.split(".");
+
+  var totalLen = 0;
+  for (var i = 0; i < sentences.length; ++i) {
+    totalLen += sentences[i].length;
+
+    if (totalLen > 250)
+      return [sentences.slice(0, i).join(".") + ".", sentences.slice(i).join(".")];
+  }
+  console.log("Failed to split")
+  return text;
 }
