@@ -11,7 +11,11 @@ import requests
 
 k = aiml2.Kernel()
 k.loadBrain("ai/static/aimldb/aiml.brn")
-googleAPIKey = "***REMOVED***"
+googleAPIKey = ''
+try:
+  googleAPIKey = open('google_api_key').read().strip()
+except:
+  print 'Cannot read googleAPIKey, will only work for english'
 
 def index(request):
     return render_to_response('index_ai.html')
